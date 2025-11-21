@@ -1,0 +1,263 @@
+.bg-card {
+	background: rgba(255, 255, 255, 0.51);
+	border-radius: 16px 16px 16px 16px;
+	border: 1px solid rgba(255, 255, 255, 0.51);
+	padding: 32px;
+	padding-top: 56px;
+	position: relative;
+	margin-top: 32px;
+	margin-right: 32px;
+	margin-bottom: 32px;
+}
+
+.bg-card > .title {
+	background-image: url(./assets/img/Frame_114291@2x.png);
+	background-size: 100% 100%;
+	padding-inline: 48px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	font-family:
+		Douyin Sans,
+		Douyin Sans;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	color: #fff;
+	text-align: left;
+	display: inline-block;
+	position: absolute;
+	top: -9px;
+	left: 0;
+	right: 0;
+	width: 320px;
+	height: 48px;
+	margin: auto;
+	text-align: center;
+}
+.small-item-box {
+	margin-bottom: 24px;
+}
+.small-item-box .ant-card-head-title {
+	display: flex;
+	align-items: center;
+	white-space: break-spaces;
+}
+.small-item-box .ant-card-head-title::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("./assets/img/file-list-3-fill@2x.png") no-repeat center;
+	background-size: contain;
+	vertical-align: middle;
+	margin-right: 6px;
+	/* margin-top: -3px; */
+}
+.bg-card .small-item-box:last-child {
+	margin-bottom: 0;
+}
+
+.ant-modal-content {
+	background-image: url(./assets/dialog/dialog-bg.png);
+	background-size: 100% 400px;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+
+.dialog-container-close {
+	position: absolute;
+	top: 32px;
+	right: 32px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 20px;
+}
+.ant-modal-body {
+	padding: 32px;
+}
+
+.dialog-container-main {
+	overflow-y: auto;
+}
+
+.dialog-container-footer {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.dialog-container-footer .ant-btn-primary {
+	width: 150px;
+	height: 48px;
+	background: linear-gradient(90deg, #0950bc 0%, #0989bc 100%);
+	box-shadow:
+		0px 3px 6px 0px rgba(0, 0, 0, 0.1),
+		inset 0px 2px 0px 0px rgba(255, 255, 255, 0.25);
+	border-radius: 8px 8px 8px 8px;
+}
+
+.dialog-container-footer .ant-btn-default {
+	width: 150px;
+	height: 48px;
+	background: linear-gradient(180deg, #fdfeff 0%, #e8f6ff 100%);
+	box-shadow:
+		0px 3px 6px 0px rgba(0, 0, 0, 0.1),
+		inset 0px 2px 0px 0px rgba(255, 255, 255, 0.85);
+	border-radius: 8px 8px 8px 8px;
+	border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.ant-card-head {
+	background: linear-gradient(0deg, #ffffff 0%, #f1f6ff 100%) !important;
+	border-bottom: 1px solid rgba(29, 127, 193, 0.2) !important;
+}
+
+.ant-card {
+	box-shadow:
+		inset 0px 2px 0px 0px #ffffff,
+		0px 0px 7px 0px rgba(39, 116, 199, 0.15);
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th,
+.ant-table-wrapper .ant-table-thead > tr > td {
+	background-color: #f2f6ff;
+}
+
+.back {
+	width: 190px;
+	height: 48px;
+	background: linear-gradient(180deg, #fdfeff 0%, #e8f6ff 100%);
+	box-shadow:
+		0px 3px 6px 0px rgba(0, 0, 0, 0.1),
+		inset 0px 2px 0px 0px rgba(255, 255, 255, 0.85);
+	border-radius: 8px 8px 8px 8px;
+	border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.copyright {
+	font-family:
+		Alibaba PuHuiTi 3,
+		Alibaba PuHuiTi 30;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.45);
+}
+
+.confirm {
+	width: 192px;
+	height: 48px;
+	background: linear-gradient(90deg, #0950bc 0%, #0989bc 100%);
+	box-shadow:
+		0px 3px 6px 0px rgba(0, 0, 0, 0.1),
+		inset 0px 2px 0px 0px rgba(255, 255, 255, 0.25);
+	border-radius: 8px 8px 8px 8px;
+}
+
+.pleading {
+	height: 800px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.pleading-module {
+	border-left: 1px solid #000;
+	display: flex;
+	flex-direction: column;
+}
+
+.pleading-module:first-child {
+	border-top: 1px solid #000;
+}
+
+.pleading-module-name {
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	text-align: center;
+	padding: 30px 0;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.module-item {
+	display: flex;
+	width: 100%;
+}
+
+.module-item-name {
+	width: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+.module-item-values {
+	flex: 1;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	line-height: 24px;
+	padding: 10px;
+}
+
+.pleading-module-desc {
+	padding: 20px;
+	border: 1px solid #000;
+}
+
+.tip-title {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.tip-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.tip-content span {
+	text-indent: 30px;
+}
+
+.pleading-h3 {
+	text-align: center;
+	font-size: 40px;
+	color: #000;
+}
+
+.container-manage {
+	z-index: 998;
+	position: fixed;
+	height: calc(100vh - 72px);
+	width: 100vw;
+	overflow: hidden;
+	top: 72px;
+	left: 0px;
+	background-image: url(./assets/img/page-bg.png);
+	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.container-manage .bg-card {
+	background-color: #fff;
+	overflow-y: auto;
+	height: 100%;
+	border-radius: 0;
+	margin: 0;
+}
+.textRight {
+	text-align: right;
+	display: inline-block;
+	width: 100%;
+}
+.textLeft {
+	text-align: left;
+}
+
+.admin-manage .ant-table-pagination {
+	margin-right: 20px !important;
+}
